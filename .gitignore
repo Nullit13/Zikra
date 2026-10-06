@@ -1,0 +1,29 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local environment files
+.env
+.env.*
+
+# Build / generated files
+dist/
+build/
+coverage/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz

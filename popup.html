@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Zikra <span style="opacity: 0.5; font-weight: 400;">· ذكرى</span></h1>
+  <div class="row">
+    <span>Enabled</span>
+    <label class="switch">
+      <input type="checkbox" id="enabled">
+      <span class="slider"></span>
+    </label>
+  </div>
+  <div class="row">
+    <span>Interval</span>
+    <select id="interval">
+      <option value="60000">1 minute</option>
+      <option value="300000">5 minutes</option>
+      <option value="600000">10 minutes</option>
+      <option value="900000">15 minutes</option>
+      <option value="1800000">30 minutes</option>
+    </select>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
